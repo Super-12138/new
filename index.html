@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test1</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <!--rel是属性，stylesheet外部样式表 -->
+    <script src="scripts/main.js" defer></script>
+    <!--defer作用是文档加载完毕了再执行脚本,这样回避免找不到对象的问题 -->
+</head>
+
+<body>
+    <h1>这是一个测试网页</h1>
+    <h1>
+        <a href="https://www.baidu.com" id="xxx" title="跳转到百度" target="_blank">跳转神秘网站</a>
+    </h1>
+    <p>点击下方图片，更换照片</p>
+    <img src="images/1.jpg" width="250dx" height="250dx">
+    <ul>
+        <li>好好学习</li>
+        <li>天天向上</li>
+    </ul>
+
+    <h2>列表</h2>
+    <p>有序列表</p>
+    <ol>
+        <li>是不是真的啊？</li>
+        <li>今天有没有在学习？</li>
+        <li>现在是2022.11.18的1：46分</li>
+    </ol>
+    <p>无序列表</p>
+    <ui>
+        <li>豆浆</li>
+        <li>油条</li>
+        <li>捞面</li>
+    </ui>
+
+    <h2>缩略语</h2>
+    <p>我们使用 <abbr title="超文本标记语言（Hyper text Markup Language）">HTML</abbr> 来组织网页文档。</p>
+    <p>第 33 届 <abbr title="夏季奥林匹克运动会">奥运会</abbr> 将于 2024 年 8 月在法国巴黎举行。</p>
+    <h3>超链接跳转到本文档指定部分</h3>
+    <p><a href="#xxx">点我跳转到上面</a></p>
+
+    <h2>上下标</h2>
+    <p>x<sup>2</sup> 的值为 9，C<sub>7</sub>H<sub>2</sub>O<sub>16</sub>.</p>
+
+    <h2>日期</h2>
+    <time datetime="2022-11-19">2022年11月19日</time>
+
+    <h2>编写文档</h2>
+    <p>因为css还没学，界面还不是那么美观</p>
+    <header>页眉</header>
+    <nav>
+        <p>导航栏</p>
+        <li>
+            <a href="https://www.baidu.com" target="_blank">百度</a>
+        </li>
+        <li>
+            <a href=#xxx>返回顶部</a>
+        </li>
+        <li>
+            <a href="https://tiyu.baidu.com/match/%E4%B8%96%E7%95%8C%E6%9D%AF/tab/%E8%B5%9B%E7%A8%8B/from/baidu_aladdin" target="_blank">世界杯赛程</a>
+        </li>
+    </nav>
+
+    <main>
+        <article>
+            假装这是一篇文章
+        </article>
+        <aside>
+            <ui>
+                <li>主页</li>
+                <li>世界杯赛程</li>
+                <li>今日天气</li>
+            </ui>
+        </aside>
+    </main>
+    <hr>
+    <footer>
+        <!-- 本站所有网页的统一页脚 -->
+        <p>© 2022 郑超保留所有权利</p>
+    </footer>
+</body>
+
+</html>
